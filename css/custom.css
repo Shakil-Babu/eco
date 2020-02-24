@@ -1,0 +1,88 @@
+
+
+
+.navbar a{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Button Design */
+.designButton{
+  padding: 10px 30px;
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+ 
+}
+
+
+
+.carouselBox{
+  position: relative;
+
+}
+.headingOfcarousel{
+  
+  color: #2c0b0b1c;
+  transform: rotate(-90deg);
+  height:199px;
+  width: 566px;
+  position: absolute;
+  top: 30px;
+  left: -200px;
+  font-weight: bold;
+}
+
+.card{
+  border: none;
+  box-shadow: 0px 1px 10px 0px dimgray;
+}
+.card:hover{
+  border: none;
+  box-shadow:none;
+  transition: 1s;
+}
+
+.card:hover button{
+  border: 1px solid orange;
+  background: none;
+  color: orange;
+  transition: 1s;
+
+}
+
+.card:hover h3{
+  color: orange;
+  transition: 1s;
+}
+
+.card-img{
+  width: 70%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.imgBG{
+  box-shadow: 0px 1px 10px 0px dimgray;
+  padding: 50px 50px;
+  width: 222px;
+}
+
+.imgg{
+  width: 500px;
+}
+
+.imgBG:hover{
+  border: 1px solid orange;
+  transition: .2s;
+}
+
+.carouselBG{
+  background-color: #994e710f;
+  padding-left: 25px;
+  border-radius: 5px;
+}
+
